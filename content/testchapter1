@@ -1,0 +1,57 @@
+Enter file contents here<?xml version="1.0" encoding="UTF-8"?>
+<!--schema: TEI Boilerplate-->
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The String of Pearls; or, the barber of Fleet Street, a domestic romance.<lb/>Chapter <!--number, title--></title>
+                <author>James Malcolm Rymer</author>
+               <editor><!--YOUR NAME HERE PLEASE--></editor>
+            </titleStmt>
+           <publicationStmt>
+                <publisher>The James Malcolm Rymer Collection</publisher>
+                          <availability status="free">
+                    <p>Freely available on a non-commercial basis.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+              <biblStruct>
+                    <monogr>
+                         <title level="a">Chapter 11: THE MEETING IN THE TEMPLE</title>
+                        <title>The String of Pearls, or the Barber of Fleet Street, A Domestic Romance</title>
+                        <imprint>
+                            <publisher><persName>Edward Lloyd</persName></publisher>
+                            <pubPlace>Salisbury Square</pubPlace>
+                            <pubPlace>London</pubPlace>
+                        <date when="1850"/>
+                        </imprint>
+                        <imprint>
+                            <pubPlace>London</pubPlace>
+                            </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+            </teiHeader>
+        <text>
+        <body>
+            <div type="installment">
+            <figure>
+                <!--<graphic url="http://archive.org/stream/stringofpearlsor00ryme#page/n8/mode/1up"-->
+                <head><idno type="plate" n="1"></idno></head>
+                </figure>
+                <pb n="2"/>            
+                <div type="chapter">
+                    <head><!--CHAPTER TITLE HERE--></head>   
+                    <p> <hi rend="smallcaps">TOWARDS THE DUSK</hi> of the evening in that day...   
+                        <!--REST OF ENCODED, TAGGED CHAPTER-->
+                    </p>
+                </div>
+            </div>
+        </body>
+        <back>
+<div type="notes">
+    <note n="1"><persName>Mrs. Lovett</persName>: The proprietor of a pie shop.</note>
+    <!--rest of the notes-->
+</div></back></text></TEI>
